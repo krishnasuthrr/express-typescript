@@ -21,7 +21,7 @@ export const pets: Pet[] = [
   {
     id: 1,
     name: "Luna",
-    species: "Cat",
+    species: "cat",
     breed: "Bombay",
     age: 2,
     adopted: true,
@@ -37,9 +37,9 @@ export const pets: Pet[] = [
   {
     id: 2,
     name: "Tuffy",
-    species: "Dog",
+    species: "dog",
     breed: "Pug",
-    age: 3,
+    age: 5,
     adopted: false,
     intakeDate: new Date("2026-01-15"),
     medicalRecord: {
@@ -50,3 +50,6 @@ export const pets: Pet[] = [
     photo: "tuffy.jpg",
   },
 ];
+
+// const pet: Pet = pets.find(pet => pet.id === 3)
+// console.log(pet)
